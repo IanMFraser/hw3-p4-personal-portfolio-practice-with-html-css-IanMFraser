@@ -5,20 +5,37 @@ body {
   }
 
 #navbar{
-    /* display: inline-block; */
-    /* position: fixed; */
+    text-align: center;
+    position: fixed;
     top: 0;
-    left: 0;
+    margin: 0;
     width: 100%;
   
 }
 
+nav ul {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 55px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
 #welcome-section{
+    top: 0;
     height: 100vh;
+    padding-top: 20vh
 }
 
 #projects{
+    top: 0;
     height: 100vh;
+    padding-top: 20vh;
 }
 
 .project-tile{
