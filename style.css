@@ -5,6 +5,7 @@ body {
   }
 
 #navbar{
+    background-color: pink;
     text-align: center;
     position: fixed;
     top: 0;
@@ -14,7 +15,7 @@ body {
 }
 
 nav ul {
-    text-align: right;
+    text-align: right;  
     position: fixed;
     width: 100%;
 }
