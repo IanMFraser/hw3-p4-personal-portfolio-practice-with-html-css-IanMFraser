@@ -1,7 +1,12 @@
 body {
     font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
     background-color: yellow;
   }
+#navbar{
+    display: inline-block;
+    width: 100%;
+}
 @media only screen and (max-width: 500px){
     
     body{
